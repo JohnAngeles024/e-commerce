@@ -1,0 +1,40 @@
+
+body{
+    background-color: #f4f4f4;
+}
+
+.product{
+    width: 1000px;
+    margin: auto;
+ 
+
+    &__heading{
+        font-size: 30px;
+        &-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__img{
+            width: 220px;
+            height: 220px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &__item{
+            background-color: white;
+            padding: 10px;
+        }
+    }
+}
